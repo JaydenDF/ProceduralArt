@@ -1,0 +1,25 @@
+cretate repo in github.com
+
+add unity .gitignore
+
+clone it in a git gui lik github desktop or fork or gitkraken
+
+go into file directory documents/github/**repoName**
+
+put .gitignore into the root // go into file directory documents/github/**repoName**
+
+right click - git bash here
+
+in git bash - git lfs install
+
+in git bash - git lfs track "*.psd" //to track psd files and create a gitAttributes file
+
+create unity project using unity hub, with location documents/github/**repoName**
+
+in unity, eddit -> project setting -> editor -> asset serialization -> force text
+
+go to https://gist.github.com/Srfigie/77b5c15bc5eb61733a74d34d10b3ed87
+
+copy all and paste into .gitattributes file
+
+create the Initial Commit using the git gui
